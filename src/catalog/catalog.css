@@ -1,0 +1,81 @@
+@import url('../fonts.css');
+@import url('../bootstrap.min.css');
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Roboto, serif !important;
+	margin: 0;
+	color: #000 !important;
+}
+
+a {
+	text-decoration: none !important;
+	color: #000 !important;
+}
+
+.site_btn {
+	display: inline-block;
+	text-align: center;
+	min-width: 160px;
+	padding: 3px 13px 0 13px;
+	height: 30px;
+	background: #ed1b24;
+	border-radius: 20px;
+	color: #fff !important;
+}
+
+
+.logo_bg {
+	height: 100px;
+	background: url('../img/head_bg.jpg');
+}
+
+.logo {
+	position: relative;
+	top: -30px;
+}
+
+.catalog_bg {
+	background: #e4e4e4;
+}
+
+.product_table tr {
+	background: #e4e4e4;
+	border: 0px #fff solid;
+	border-bottom-width: 10px;
+	border-right-color: #e4e4e4;
+	border-right-width: 10px;
+	border-left-color: #e4e4e4;
+	border-left-width: 10px;
+	height: 55px;
+}
+
+.fasad_border {
+	height: 200px;
+	border: 1px solid #cbd0d2;
+	border-radius: 25px;
+}
+
+.form_bg {
+	background: #efefef !important;
+	border-radius: 1rem !important;
+}
+
+.star_redcolor {
+	color: #ed1b24;
+}
+
+.feedback {
+	height: 570px;
+}
+
+.ul_reboot {
+	list-style: none;
+	padding-left: 0;
+}
+
+.footer_bg {
+	background: #d5d5d5;
+}
